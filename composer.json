@@ -57,7 +57,8 @@
             "php artisan ide-helper:meta"
         ],
         "lint": [
-            "vendor/bin/pint --verbose"
+            "vendor/bin/pint --verbose",
+            "npx prettier --write resources/"
         ],
         "test": [
             "@php artisan config:clear --ansi",
