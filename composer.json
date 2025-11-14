@@ -56,6 +56,9 @@
             "php artisan ide-helper:models -N",
             "php artisan ide-helper:meta"
         ],
+        "lint": [
+            "vendor/bin/pint --verbose"
+        ],
         "test": [
             "@php artisan config:clear --ansi",
           "@php artisan test"
