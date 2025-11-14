@@ -61,9 +61,13 @@
             "vendor/bin/pint --verbose",
             "npx prettier --write resources/"
         ],
+        "lint:dirty": [
+            "vendor/bin/pint --verbose --dirty",
+            "npx pretty-quick"
+        ],
         "test": [
             "@php artisan config:clear --ansi",
-          "@php artisan test"
+            "@php artisan test"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
@@ -71,7 +75,9 @@
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force",
-            "@php artisan boost:update --ansi"
+            "@php artisan boost:update --ansi",
+            "whisky update",
+            "composer ide"
         ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
