@@ -35,6 +35,7 @@ Added:
 - Laravel IDE Helper (see: https://github.com/barryvdh/laravel-ide-helper)
 - Whisky (see: https://github.com/ProjektGopher/whisky)
     - Git Hooks for pre-commit and pre-push (see: [./whisky.json](./whisky.json))
+- Essentials (see: https://github.com/nunomaduro/essentials)
 
 ## Composer Scripts
 
