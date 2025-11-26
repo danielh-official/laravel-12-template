@@ -58,3 +58,7 @@ composer sail # Run sail commands (e.g., composer sail up -d)
 > I'm having issues with committing on Git.
 
 Run `composer update` to trigger `whisky update`. That should refresh your Git hooks. If you've installed a fresh project, make sure to run `composer setup` before doing anything else.
+
+## FilamentPHP
+
+This project has FilamentPHP installed. See the [official installation docs](https://filamentphp.com/docs/4.x/introduction/installation) for using FilamentPHP in your project.
