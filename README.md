@@ -12,7 +12,7 @@ For a similar and more popular idea, see: https://github.com/nunomaduro/laravel-
     1. Run `./vendor/bin/sail up` or `./vendor/bin/sail up -d`
     - Make sure you have a Docker environment set up like Orbstack (see: https://orbstack.dev/download)
     - Sail scripts can be run using `composer sail` as well
-    2. Alternatively, run `composer dev` to enable hot reload of views whenever a file is changed on 127.0.0.1:{port}
+    2. Alternatively, run `composer dev` to enable hot reload of views whenever a file is changed on 127.0.0.1:{port,default:8000}
 
 ## Information
 
