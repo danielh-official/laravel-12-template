@@ -12,8 +12,12 @@
         "php": "^8.2",
         "filament/filament": "^4.0",
         "laravel/framework": "^12.40.1",
+        "laravel/nightwatch": "^1.19",
+        "laravel/passport": "^13.0",
+        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1",
-        "nunomaduro/essentials": "^1.0"
+        "nunomaduro/essentials": "^1.0",
+        "spatie/laravel-permission": "^6.23"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.16",

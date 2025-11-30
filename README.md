@@ -9,10 +9,10 @@ For a similar and more popular idea, see: https://github.com/nunomaduro/laravel-
 1. Clone to your machine
 2. Run `composer setup` (see: https://getcomposer.org/download/)
 3. Running Server
-    1. Run `./vendor/bin/sail up` or `./vendor/bin/sail up -d`
-    - Make sure you have a Docker environment set up like Orbstack (see: https://orbstack.dev/download)
-    - Sail scripts can be run using `composer sail` as well
-    2. Alternatively, run `composer dev` to enable hot reload of views whenever a file is changed on 127.0.0.1:{port,default:8000}
+    1. **Sail**: Run `./vendor/bin/sail up` or `./vendor/bin/sail up -d`
+        - Make sure you have a Docker environment set up like Orbstack (see: https://orbstack.dev/download)
+        - Sail scripts can be run using `composer sail` as well
+    2. **Local**: Alternatively, run `composer dev` to enable hot reload of views whenever a file is changed on 127.0.0.1:{port,default:8000}
 
 ## Information
 
@@ -36,6 +36,12 @@ Added:
 - Whisky (see: https://github.com/ProjektGopher/whisky)
     - Git Hooks for pre-commit and pre-push (see: [./whisky.json](./whisky.json))
 - Essentials (see: https://github.com/nunomaduro/essentials)
+- FilamentPHP: https://filamentphp.com
+- Spatie Laravel Permission: https://spatie.be/docs/laravel-permission/v6/introduction
+- Laravel Nightwach: https://nightwatch.laravel.com/
+- API Authentication
+    - Laravel Sanctum (Personal Access Tokens): https://laravel.com/docs/12.x/sanctum
+    - Laravel Passport (Oauth2): https://laravel.com/docs/12.x/passport
 
 ## Composer Scripts
 
@@ -58,7 +64,3 @@ composer sail # Run sail commands (e.g., composer sail up -d)
 > I'm having issues with committing on Git.
 
 Run `composer update` to trigger `whisky update`. That should refresh your Git hooks. If you've installed a fresh project, make sure to run `composer setup` before doing anything else.
-
-## FilamentPHP
-
-This project has FilamentPHP installed. See the [official installation docs](https://filamentphp.com/docs/4.x/introduction/installation) for using FilamentPHP in your project.
